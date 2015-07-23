@@ -1,0 +1,83 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "name": "BSCS: Computer Science"
+    },
+    {
+      "id": 2,
+      "name": "ESCONBSE: Applied Science"
+    },
+    {
+      "id": 3,
+      "name": "BSWST: Women Studies"
+    }
+  ],
+  "courses": [
+    {
+      "programId": 1,
+      "course": "CSE110: Intro to Computer Science"
+    },
+    {
+      "programId": 1,
+      "course": "MAT265: Calculus"
+    },
+    {
+      "programId": 1,
+      "course": "ENG101: First Year Composition"
+    },
+    {
+      "programId": 1,
+      "course": "CSE105: First Year Consumer Science"
+    },
+    {
+      "programId": 1,
+      "course": "CSE240: Computer Science"
+    },
+    {
+      "programId": 2,
+      "course": "CHM114: Basic Chemistry"
+    },
+    {
+      "programId": 2,
+      "course": "CHM116: Basic Chemistry"
+    },
+    {
+      "programId": 2,
+      "course": "MAT265: Calculus"
+    },
+    {
+      "programId": 2,
+      "course": "PHY121: Advanced Physics"
+    },
+    {
+      "programId": 2,
+      "course": "PHY122: Advanced Physics"
+    },
+    {
+      "programId": 2,
+      "course": "BIO181: College Biology"
+    },
+    {
+      "programId": 3,
+      "course": "ENG101: First Year Composition"
+    },
+    {
+      "programId": 3,
+      "course": "ENG102: First Year Composition"
+    },
+    {
+      "programId": 3,
+      "course": "MAT142: College Math"
+    },
+    {
+      "programId": 3,
+      "course": "WST276: Women Studies"
+    },
+    {
+      "programId": 3,
+      "course": "AMS 431: Gender Studies"
+    },
+    
+  ]
+}
