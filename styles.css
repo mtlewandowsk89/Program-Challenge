@@ -1,0 +1,47 @@
+button {
+	background-color: lime;
+	border: 4px solid orange;
+	border-radius: 20px;
+	width: 150px;
+	height: 60px;
+	font-family: lobster;
+	font-size: 24pt;
+	color: white;
+}
+
+.no {
+	font-size: 12pt;
+	color: red;
+	font-family: Tacoma;
+	position: relative;
+	top: -16px;
+	left: 120px;
+}
+
+.bad {
+	color: red;
+}
+
+.yes {
+	color: blue;
+	font-size: 18pt;
+	position: relative;
+	top: 300px;
+	right: 308px;
+}
+
+body{
+	background-color: tan;
+	padding: 0;
+}
+
+.name {
+	font-family: Oswald;
+	text-align: center;
+	font-size: 32pt;
+	text-decoration: underline;
+}
+
+.awesome {
+	color: blue;
+}

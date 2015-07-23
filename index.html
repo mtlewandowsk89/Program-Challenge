@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.js"></script>
+	<script src="main.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles.css">
+	<script id="program-template" type="text/x-handlebars-template">
+		<li data-id="{{program.id}}"> {{program.name}} <a href="#">Get Courses</a></li>
+	</script>
+	<script id="course-template" type="text/x-handlebars-template">
+		<h1>{{}}</h1><li>{{course.name}}</li>
+	</script>
+</head>
+<body>
+	
+	<h1 class="name">Matt's Awesome University</h1>
+	<form>
+		<button>Programs</button>
+		<button class="no">I don't want to go to school</button>
+		<button class="yes">Sign me up!</button>
+	</form>
+
+	<ul class="prgms"></ul>
+	<div class="courses"></div>
+	<div class="fail"></div>
+	<div class="awesome"></div>
+
+</body>
+</html>
